@@ -1,0 +1,41 @@
+body {
+  font-family: '微软雅黑';
+  background-color: pink;
+}
+.navbar-default {
+  background-color: #fff;
+  box-shadow: 0px 1px 2px 4px  rgba(0,0,0, 0.2);
+  border: none;
+}
+.navbar-default .navbar-toggle {
+  border-color: #030060;
+  margin-top: 18px
+}
+.navbar-brand {
+  line-height: 42px;
+  height: 72px;
+  margin-left: 1rem;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #777;
+  height: 72px;
+  line-height: 42px;
+}
+.navbar-nav {
+  margin-right: 100px
+}
+.navbar-default .navbar-toggle:hover {
+  background-color: #030060;
+}
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+    max-height: 380px;
+}
+
+/* banner */
+.carousel-inner {
+  margin-top: 72px;
+}
+.banner {
+  margin-right: -15px;
+  margin-left: -15px;
+}

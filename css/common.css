@@ -1,0 +1,237 @@
+body{
+	font-family: "微软雅黑";
+}
+input,
+textarea {
+	outline: none;
+}
+.Microsoft-YaHei{
+	font-family: "微软雅黑"
+}
+#mainNav{ background-color: rgba(0,0,0,0.7);
+		 }
+.service-align{position: relative;
+			  display: -webkit-box;
+			  display: -ms-flexbox;
+			  display: flex;
+			  -ms-flex-wrap: wrap;
+			  flex-wrap: wrap;
+			  -webkit-box-align: center;
+			  -ms-flex-align: center;
+			  -webkit-box-pack: justify;
+			  -ms-flex-pack: justify;
+			  justify-content: center;
+			  -webkit-box-orient: vertical;
+}
+.service-pro{height: 30rem;
+			 display:table-cell;
+			 vertical-align: middle;
+}
+.user-name,.user-number,.user-work{width: 21rem;
+								  height:2rem;
+								  border: none;
+								  background-color:rgba(0,0,0,0);
+								  border-bottom: 1px #fff solid;
+}
+.user-work{height:8rem;
+	     resize:none;
+}
+
+.message{background-color: #0c153a;
+	     border-radius:0.5rem;
+	     height: 2.5rem;
+	     width: 10rem;
+	     text-align: center;
+	     line-height: 2.5rem;
+	     color: #fff;
+}
+.user-submit{background-color: #6488c3;
+	     border-radius:0.5rem;
+	     height: 2rem;
+	     width: 10rem;
+	     text-align: center;
+	     line-height: 2rem;
+	     color: #fff;
+	     border-style: none;
+}
+.Profile{height: 30rem;
+		display:table-cell;
+		vertical-align: middle;
+
+}
+.portfolio-text{background:rgba(0,0,0,0.6);
+	            height: 4rem;
+	           	line-height: 4rem;
+	          	color: #fff;
+                }
+.number,.name{border: 1px solid #fff;
+			  height:2rem;
+			  width: 16rem;
+			  line-height: 2;
+		      border-radius: 0.5rem;
+			}
+.require-massage { border: 1px solid #fff;
+				   height:10rem;
+				   width: 16rem;
+				   border-radius: 0.5rem;
+				 }
+.ore-text p{padding-left:3.25rem}
+.Business-text:hover{color: #000;
+					 background-color: #fff;
+					 border-color: #fff;
+					 height: 20rem;
+					 box-shadow: 2px 2px  4px rgba(0,0,0,0.3);
+					 padding:0px 15px;
+}
+.Business-align{display: -webkit-box;
+			    -webkit-box-pack:center;
+			    -webkit-box-align:center;
+			    -webkit-box-orient: vertical;
+			    text-align: center;
+}
+.Business-pro{ display: flex;
+	           display: flex;
+			   justify-content: center;
+			   align-items: center;
+               height:20rem
+}
+.news-tags{display: flex;
+	       position: relative;
+}
+.news-tag-company-b,.news-tag-profession-a{background-color:#273471;
+						              height:2.5rem;
+						              width: 8rem;
+						              line-height: 2.5rem;
+
+}
+.news-tag-company-a,.news-tag-profession-b{background-color:#ccc;
+						              height:2.5rem;
+						              width: 8rem;
+						              line-height: 2.5rem;
+
+}
+.news-tags a:hover{background-color:#6270b3;
+}
+.news-tags a:active{background-color:#0c122f;
+}
+
+
+.news-tag-line{background-color:#273471;
+				height:0.1rem;
+				width:100%;
+}
+.news-pro img{width: 22rem;
+	          height: 18rem;
+}
+.news-text:hover{ color: #000;
+				  background-color: #fff;
+				  border-color: #fff;
+				  height: 18rem;
+				  box-shadow: 2px 2px  4px rgba(0,0,0,0.3);
+				  padding:0px 15px;
+}
+.know_more{ background-color:#101e61;
+	         height:2.5rem;
+			 width: 6rem;
+			 line-height: 2.5rem;
+			 position: absolute;
+			 left: 40rem;
+			 top: 14rem;
+
+}
+.pagination li{border:2px solid  #150254;
+			   height: 3rem;
+			   padding: 0rem  1rem;
+			   border-radius:0.5rem;
+			   line-height:3rem;
+}
+#banner img{width: 100%;
+			max-height: 100%;
+			max-width: 100%;
+			vertical-align: middle;
+
+}
+.swiper-container{position:relative;
+	              top: 0;
+	              left: 0;
+}
+.banner-text{position:absolute;
+	         top:40%;
+	         left:50%;
+	         display: flex;
+	         flex-direction: column;
+	         margin-left: -25rem;
+
+}
+.banner-text a{align-self: center;
+
+}
+
+.detail-img{ width:100%;
+	         height:24rem;
+			 max-width: 100%;
+			 line-height:24rem;
+			 text-align: center;
+}
+.detail-img	img{
+				max-height: 100%;
+				max-width: 100%;
+				vertical-align: middle;
+
+}
+
+.tip-right{background-color: rgba(0,0,0,0.6);
+	       border-radius: 3rem;
+	       width:6rem;
+	       height:22rem;
+	       position: fixed;
+	       top:40%;
+	       left: 93%;
+	       z-index: 10;
+	       display:inline-flex;
+}
+
+.qq:hover,.phone:hover,.back-top:hover{color:#323798;
+}
+
+.Online-consultation{background-color: rgba(0,0,0,0.6);
+	       width:14rem;
+	       height:7rem;
+	       position: fixed;
+	       top:50%;
+	       left:0%;
+	       z-index: 10;
+	       display:inline-flex;
+}
+.Online-consultation  .ch-text{
+							height:24px;
+							font-size:24px;
+							font-family:MicrosoftYaHei;
+							font-weight:400;
+							letter-spacing:6px;
+}
+.Online-consultation  .en-text{
+								height:12px;
+								font-size:12px;
+								font-family:MicrosoftYaHei;
+								font-weight:400;
+								color:rgba(200,200,200,1);
+						        margin-top:-10px;
+
+}
+.consultation-button a{font-size: 12px;
+	                   background-color:#323798;
+	                   width: 3.5rem;
+	                   height: 1.5rem;
+	                   line-height: 1.5rem;
+	                   border-radius: 0.25rem;
+	                   display:inline-block;
+
+
+}
+.consultation-button a:hover{background-color: #5d62d4;
+
+}
+.font-16px{
+	font-size: 16px;
+}
