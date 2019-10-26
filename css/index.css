@@ -1,6 +1,6 @@
 .navbar-brand>.logo {
   height: 130%;
-  margin-top: 0px;
+  margin-top: -6px;
   display: inline-block;
   margin-left: 2rem;
 }
