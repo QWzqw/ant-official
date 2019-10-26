@@ -308,3 +308,6 @@ input,textarea{
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+.carousel-indicators{
+  bottom:-6px;
+}
